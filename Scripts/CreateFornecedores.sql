@@ -1,0 +1,7 @@
+CREATE TABLE Fornecedores (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(255) NOT NULL,
+    Email NVARCHAR(255) NOT NULL,
+    Telefone NVARCHAR(20) NOT NULL,
+    Endereco NVARCHAR(500) NOT NULL
+);
