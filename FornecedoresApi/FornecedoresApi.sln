@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FornecedoresApi", "FornecedoresApi.csproj", "{DD383DEE-0C82-4AC5-91AE-4218A6942C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FornecedoresApi.Application", "..\FornecedoresApi.Application\FornecedoresApi.Application.csproj", "{E8AE586E-34B9-4C49-AA53-6B49834C97CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FornecedoresApi.Domain", "..\FornecedoresApi.Data\FornecedoresApi.Domain.csproj", "{A497D8C6-4753-44A7-A45D-B936982722F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FornecedoresApi.Persistence", "..\FornecedoresApi.Persistence\FornecedoresApi.Persistence.csproj", "{E5417897-FADC-44CC-9370-0CBB09A2FAF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C8066717-7CDA-4209-9E83-860728772617}"
+	ProjectSection(SolutionItems) = preProject
+		CreateFornecedores.Sql = CreateFornecedores.Sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fornecedores", "Fornecedores", "{F6B252B8-9844-4AE0-8CC5-0A55A873C887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD383DEE-0C82-4AC5-91AE-4218A6942C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD383DEE-0C82-4AC5-91AE-4218A6942C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD383DEE-0C82-4AC5-91AE-4218A6942C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD383DEE-0C82-4AC5-91AE-4218A6942C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AE586E-34B9-4C49-AA53-6B49834C97CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AE586E-34B9-4C49-AA53-6B49834C97CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AE586E-34B9-4C49-AA53-6B49834C97CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AE586E-34B9-4C49-AA53-6B49834C97CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A497D8C6-4753-44A7-A45D-B936982722F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A497D8C6-4753-44A7-A45D-B936982722F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A497D8C6-4753-44A7-A45D-B936982722F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A497D8C6-4753-44A7-A45D-B936982722F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5417897-FADC-44CC-9370-0CBB09A2FAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5417897-FADC-44CC-9370-0CBB09A2FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5417897-FADC-44CC-9370-0CBB09A2FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5417897-FADC-44CC-9370-0CBB09A2FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD383DEE-0C82-4AC5-91AE-4218A6942C21} = {F6B252B8-9844-4AE0-8CC5-0A55A873C887}
+		{E8AE586E-34B9-4C49-AA53-6B49834C97CA} = {F6B252B8-9844-4AE0-8CC5-0A55A873C887}
+		{A497D8C6-4753-44A7-A45D-B936982722F6} = {F6B252B8-9844-4AE0-8CC5-0A55A873C887}
+		{E5417897-FADC-44CC-9370-0CBB09A2FAF7} = {F6B252B8-9844-4AE0-8CC5-0A55A873C887}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820C33F5-5767-415A-95C8-64F854C76997}
+	EndGlobalSection
+EndGlobal
